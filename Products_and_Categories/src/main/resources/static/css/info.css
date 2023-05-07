@@ -1,0 +1,79 @@
+/* Body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+  color: #555;
+  margin-top: 50px;
+}
+
+/* Navigation styles */
+a {
+  color: #555;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+a:hover {
+  background-color: #555;
+  color: #f1f1f1;
+}
+
+/* Form styles */
+form {
+  margin: 1rem;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+select {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #f1f1f1;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+/* List styles */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,64 @@
+/* CSS for Home Page */
+
+/* Style for main headings */
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 20px;
+}
+
+/* Style for links */
+a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 10px;
+}
+
+/* Style for product and category boxes */
+.box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  display:flex;
+  justify-content: space-evenly;
+  
+}
+
+/* Style for product and category list */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size:1.3em;
+}
+
+/* Style for "New Product" and "New Category" buttons */
+.a {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.a a {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.a a:hover {
+  background-color: #0062cc;
+  cursor: pointer;
+}
