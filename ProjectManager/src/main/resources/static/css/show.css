@@ -1,0 +1,81 @@
+/* Main styles */
+
+body {
+  background-color: #f7f7f7;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.header a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.information {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.information h2 {
+  margin-bottom: 10px;
+}
+
+/* Form styles */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  resize: vertical;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+  background-color: #555;
+}

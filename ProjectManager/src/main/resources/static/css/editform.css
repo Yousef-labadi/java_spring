@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+h2 {
+  color: #444;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #2196F3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Form Styles */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+form p {
+  margin-bottom: 10px;
+}
+
+form label.error {
+  color: red;
+}
+
+form textarea {
+  height: 150px;
+}
+
+/* Error Styles */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Hidden Input Styles */
+input[type="hidden"] {
+  display: none;
+}
